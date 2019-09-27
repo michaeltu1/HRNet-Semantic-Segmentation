@@ -11,8 +11,8 @@ PRINT_FREQ: 100
 DATASET:
   DATASET: cityscapes
   ROOT: '/data/mtu/datasets/'
-  TEST_SET: 'list/cityscapes/val.lst'
-  TRAIN_SET: 'list/cityscapes/train.lst'
+  TEST_SET: 'list/pix2pix_cityscapes/test.lst'
+  TRAIN_SET: 'list/pix2pix_cityscapes/train.lst'
   NUM_CLASSES: 19
 MODEL:
   NAME: seg_hrnet

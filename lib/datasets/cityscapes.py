@@ -193,7 +193,7 @@ class Cityscapes(BaseDataset):
         for i in range(preds.shape[0]):
             pred = self.convert_label(preds[i], inverse=True)
             save_img = Image.fromarray(pred)
-            save_img.putpalette(palette)
+            #save_img.putpalette(palette)
             save_img.save(os.path.join(sv_path, name[i]+'.png'))
 
         
